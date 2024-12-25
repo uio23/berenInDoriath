@@ -20,6 +20,7 @@ If you would like icons for other OSes or options, here is what I suggest:
 4. Add the resulting png file to BerenInDoriath/icons on your system.
 5. Make sure the icon's name matches the --class tag of the menu entry you want it to display for. [^1]
 ## Credits
+* This theme was inspired by, and a result of heavy modification to [x4121's grub-gruvbox theme](https://github.com/x4121/grub-gruvbox).
 * All 3 images displayed around the GRUB menu are drawings of J.R.R Tolkien and belong to the [Tolkien Estate](https://www.tolkienestate.com/).
 * Colour modified Settings and Shutdown icons are from [Font Awesome](https://fontawesome.com).
 * Colour modified Arch icon by [John Gardner](https://github.com/Alhadis) from [creazilla](https://creazilla.com/).
