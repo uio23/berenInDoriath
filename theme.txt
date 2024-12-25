@@ -1,0 +1,73 @@
+#Beren in Doriath
+#A Tolkien inspired GRUB2 theme with a gruvbox colour palette
+
+# No title
+title-text: ""
+desktop-color: "#282828"
+# Font of terminal accessible via 'c' key, smaller than menue entries
+terminal-font: "JetBrains Mono Regular 24"
+
+# Beren's heraldic device centered and shrunk to 100x100 px
++ image {
+  left = 50%-250
+  top = 100
+  width = 100
+  height = 100
+  file = "Beren_device.png"
+}
+
++ boot_menu {
+  # Boot menu horizonatally centered and below device
+  left = 25%
+  width = 50%
+  top = 750
+  height = 250
+
+  # Light blue, size 32 font for each entry
+  item_font = "JetBrains Mono Regular 32"
+  item_color = "#83a598"
+
+  # Dimentionas and spacing of entries 
+  item_height = 38
+  item_icon_space = 15
+  item_spacing = 15
+
+  # Selected entry font darker blue and boldened
+  selected_item_font = "JetBrains Mono Bold 32"
+  selected_item_color= "#076678"
+  selected_item_pixmap_style = "select_*.png"
+
+  # Icons scaled to 32x32px
+  icon_height = 32
+  icon_width = 32
+}
+
+# x1.5 shrunk tree drawing in bottom left corner, 8px away from the edges
++ image {
+  file = "tree.png"
+  top = 100%-494
+  left = 8
+  height = 486
+  width = 216
+}
+
+# x1.5 shrunk Amalion tree drawing in bottom right corner, 8px away from the edges
++ image {
+  file = "tree_of_Amalion.png"
+  top = 100%-422
+  left = 100%-275
+  height = 414
+  width = 267
+}
+
+# Dynamically updated label horizontally centered at the bottom of the screen
+# Shows the number of seconds left before default entry boot (Arch)
++ label {
+  id = "__timeout__"
+  text = "Booting Arch in %ds"
+  top = 90%
+  color = "#665c54"
+  width = 30%
+  align = "center"
+  left = 35%
+}
