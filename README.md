@@ -11,7 +11,7 @@ E.g.
 `GRUB_THEME="/boot/grub/themes/berenInDoriath"`
 ###### NOTE
 The theme as it is includes icons for menu entries: arch, windows, settings and shutdown. To make sure they are displayed alongside the matching menu entries, please make sure that these menu entries are generated
-with corresponding --class tags arch, windows, settings and shutdown/[^1]
+with corresponding --class tags: arch, windows, settings and shutdown.[^1]
 ## Expanding
 If you would like icons for other OSes or options, here is what I suggest:
 1. Find the desired icon online.
